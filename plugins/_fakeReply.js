@@ -10,7 +10,7 @@ global.rcanal = {
  contextInfo: {
              isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363398043363641@newsletter ",
+      newsletterJid: "120363398043363641@newsletter",
       serverMessageId: 100,
       newsletterName: name,
    }, 
