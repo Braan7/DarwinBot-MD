@@ -104,7 +104,7 @@ loadChatgptDB();
 
 global.creds = 'creds.json'
 global.authFile = 'crowSession'
-global.authFileJB  = 'BarbozaJadiBot'
+global.authFileJB  = 'BraanJadiBot'
 /*global.rutaBot = join(__dirname, authFile)
 global.rutaJadiBot = join(__dirname, authFileJB)
 
@@ -176,7 +176,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['BarbozaBot-Ai', 'Edge', '20.0.04'] : methodCodeQR ? ['BarbozaBot-Ai', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['BraanBot-Ai', 'Edge', '20.0.04'] : methodCodeQR ? ['BraanBot-Ai', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -278,9 +278,9 @@ console.log(chalk.bold.redBright(`\n⚠️❗ RAZON DE DESCONEXIÓN DESCONOCIDA:
 process.on('uncaughtException', console.error);
 
 async function connectSubBots() {
-const subBotDirectory = './BarbozaJadiBot';
+const subBotDirectory = './BraanJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🌠 BarbozaBot-Ai no tiene Sub-Bots vinculados.');
+console.log('🌠 BraanBot-Ai no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -303,11 +303,11 @@ console.log(chalk.bold.greenBright(`🌠 Todos los Sub-Bots se conectaron con é
 (async () => {
 global.conns = [];
 
-const mainBotAuthFile = 'BarbozaJadiBot';
+const mainBotAuthFile = 'BraanJadiBot';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🌠 Ai Barboza conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🌠 Ai Braan conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
