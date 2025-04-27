@@ -1,11 +1,11 @@
-Código creador por Barboza 
+Código creador por Braan
 
 import fetch from 'node-fetch';
 
 const handler = async (m, { conn, args, usedPrefix, command }) => {
     try {
         if (!args[0]) {
-            return m.reply(`❌ Ingresa el texto para el sticker.\n\nEjemplo: *${usedPrefix + command} Barboza*`);
+            return m.reply(`❌ Ingresa el texto para el sticker.\n\nEjemplo: *${usedPrefix + command} Braan*`);
         }
 
         const text = encodeURIComponent(args.join(" "));
