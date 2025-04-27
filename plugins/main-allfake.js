@@ -46,8 +46,8 @@ var handler = async function (m, conn, db) {
     let asistencia = 'Wa.me/5804146277368'
 
     // Lista de canales
-    let canalIdM = ["120363420772801839@newsletter", "120363420772801839@newsletter"]
-    let canalNombreM = ["𝙈𝙚𝙨𝙞𝙩𝙤𝘽𝙤𝙩.🦥", "✧┊┋◟𝙈𝙚𝙨𝙞𝙩𝙤𝘽𝙤𝙩.🦥◞┊┋✧"]
+    let canalIdM = ["120363398043363641@newsletter", "120363398043363641@newsletter"]
+    let canalNombreM = ["𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼", "✧┊┋◟𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼◞┊┋✧"]
     
     async function getRandomChannel() {
         let randomIndex = Math.floor(Math.random() * canalIdM.length)
@@ -104,7 +104,7 @@ var handler = async function (m, conn, db) {
             externalAdReply: { 
                 showAdAttribution: true, 
                 title: "Texto del bot", 
-                body: '🚀 ♡⃝𝙈𝙚𝙨𝙞𝙩𝙤𝘽𝙤𝙩.🦥ᚐ', 
+                body: '🚀 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼ᚐ', 
                 previewType: "PHOTO", 
                 thumbnailUrl: "https://qu.ax/QGAVS.jpg", 
                 sourceUrl: "https://whatsapp.com/channel/0029Vaua0ZD3gvWjQaIpSy18", 
