@@ -2,13 +2,13 @@
 import PhoneNumber from 'awesome-phonenumber';
 
 async function handler(m, { conn }) { 
-    let numcreador = '529981403699';
+    let numcreador = '5215648804810';
     let ownerJid = numcreador + '@s.whatsapp.net';
 
     let name = await conn.getName(ownerJid) || 'owner'; 
     let about = (await conn.fetchStatus(ownerJid).catch(() => {}))?.status || 'Creador de bots de Whatapp ';
 
-    let empresa = 'MESITO - Servicios Tecnológicos';
+    let empresa = 'BRAAN7 - Servicios Tecnológicos';
 
     let vcard = `
 BEGIN:VCARD
