@@ -1,7 +1,7 @@
 
 {
-  "name": "Bolillo",
-  "version": "2.2.0",
+  "name": "BraanBot",
+  "version": "1.0.0",
   "description": "Super WhatsApp Bot Multi Device",
   "main": "index.js",
   "type": "module",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/meldexzz/bolibotmensual.git",
   "author": {
-    "name": "meldexzz"
+    "name": "Braan7"
   },
   "repository": {
     "type": "git",
