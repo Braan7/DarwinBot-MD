@@ -1,8 +1,8 @@
 import fetch from 'node-fetch'
 
 export async function before(m, { conn }) {
-let name = `𝙈𝙚𝙨𝙞𝙩𝙤𝘽𝙤𝙩.🦥`
-let imagenes = ["https://i.postimg.cc/Vv73j0HY/IMG-6032.jpg"]
+let name = `𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼`
+let imagenes = ["https://qu.ax/cATgq.jpg"]
 
 let icono = imagenes[Math.floor(Math.random() * imagenes.length)]
 
@@ -10,7 +10,7 @@ global.rcanal = {
  contextInfo: {
              isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363420772801839@newsletter",
+      newsletterJid: "120363398043363641@newsletter ",
       serverMessageId: 100,
       newsletterName: name,
    }, 
@@ -30,12 +30,12 @@ global.rcanal = {
 
 
 global.icono = [ 
-'https://qu.ax/yyCo.jpeg',
-'https://qu.ax/yyCo.jpeg',
-'https://qu.ax/qJch.jpeg',
-'https://qu.ax/qJch.jpeg',
-'https://qu.ax/CHRS.jpeg',
-'https://qu.ax/CHRS.jpeg',
+'https://qu.ax/cATgq.jpeg', 
+'https://qu.ax/cATgq.jpeg',
+'https://qu.ax/cATgq.jpeg',
+'https://qu.ax/cATgq.jpeg',
+'https://qu.ax/NlztA.jpeg',
+'https://qu.ax/NlztA.jpeg',
 ].getRandom()
 
         global.fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./storage/img/catalogo.png'), thumbnail: fs.readFileSync('./storage/img/catalogo.png'), sendEphemeral: true } } }
