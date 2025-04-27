@@ -107,7 +107,7 @@ var handler = async function (m, conn, db) {
                 body: '🚀 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼ᚐ', 
                 previewType: "PHOTO", 
                 thumbnailUrl: "https://qu.ax/QGAVS.jpg", 
-                sourceUrl: "https://whatsapp.com/channel/0029Vaua0ZD3gvWjQaIpSy18", 
+                sourceUrl: "https://youtube.com/@braan7x?si=CZPpX_5bMgiQc4Gk", 
                 mediaType: 1, 
                 renderLargerThumbnail: false 
             }
