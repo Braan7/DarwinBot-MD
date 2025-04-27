@@ -59,7 +59,7 @@ global.icono = [
     contextInfo: {
             isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363420772801839@newsletter",
+      newsletterJid: "120363398043363641@newsletter",
       serverMessageId: 100,
       newsletterName: name,
     },
