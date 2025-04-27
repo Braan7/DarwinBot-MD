@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
     // Validar formato del comando
     if (!regFormat.test(text)) {
-        return m.reply(`❌ Formato incorrecto.\n\nUsa el comando así: *${usedPrefix + command} nombre.edad*\nEjemplo: *${usedPrefix + command} 𝙈𝙚𝙨𝙞𝙩𝙤𝘽𝙤𝙩.🦥.18*`);
+        return m.reply(`❌ Formato incorrecto.\n\nUsa el comando así: *${usedPrefix + command} nombre.edad*\nEjemplo: *${usedPrefix + command} 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼.18*`);
     }
 
     let [_, name, splitter, age] = text.match(regFormat);
@@ -41,7 +41,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
             externalAdReply: {
                 title: '✅ Registro completado',
                 body: 'Gracias por registrarte.',
-                thumbnailUrl: 'https://i.postimg.cc/Vv73j0HY/IMG-6032.jpg', // Imagen proporcionada
+                thumbnailUrl: 'https://qu.ax/cATgq.jpg', // Imagen proporcionada
                 sourceUrl: 'https://your-website.com', // Personaliza con tu enlace
                 mediaType: 1,
                 renderLargerThumbnail: true
@@ -57,7 +57,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
             externalAdReply: {
                 title: '🔔 Nuevo registro',
                 body: `Usuario ${name} ha sido registrado con éxito.`,
-                thumbnailUrl: 'https://qu.ax/Mvhfa.jpg', // Imagen proporcionada
+                thumbnailUrl: 'https://qu.ax/cATgq.jpg', // Imagen proporcionada
                 sourceUrl: 'https://your-website.com', // Personaliza con tu enlace
                 mediaType: 1,
                 renderLargerThumbnail: true
