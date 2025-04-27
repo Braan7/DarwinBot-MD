@@ -4,7 +4,7 @@ import * as fs from 'fs';
 const handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
   try {
     const users = participants.map((u) => conn.decodeJid(u.id));
-    const watermark = '\n\n> 𝙈𝙚𝙨𝙞𝙩𝙤𝘽𝙤𝙩.🦥';
+    const watermark = '\n\n> 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼';
 
     const q = m.quoted ? m.quoted : m || m.text || m.sender;
     const c = m.quoted ? await m.getQuotedObj() : m.msg || m.text || m.sender;
