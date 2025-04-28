@@ -307,11 +307,11 @@ const mainBotAuthFile = 'BraanJadiBot';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🌠 Ai Braan conectado correctamente.`))
+console.log(chalk.bold.greenBright(`🌠 Ai Anilu conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`🥀 Error al iniciar BarbozaBot-Ai: `, error))
+console.error(chalk.bold.cyanBright(`🥀 Error al iniciar AniluBot-Ai: `, error))
 }
 })();
 
