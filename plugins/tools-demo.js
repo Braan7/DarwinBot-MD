@@ -14,7 +14,7 @@ isForwarded: false,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `[ 𝙈𝙚𝙨𝙞𝙩𝙤𝘽𝙤𝙩.🦥 ]`,
+title: `[ 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼 ]`,
 body: ``,
 "previewType": "PHOTO",
 thumbnailUrl: 'https://tinyurl.com/2awg2bch', 
