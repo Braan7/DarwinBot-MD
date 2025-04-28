@@ -36,9 +36,9 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     });
   }
 
-  // Mensaje inicial indicando que 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼 está procesando la música
+  // Mensaje inicial indicando que Streaming Anilu está procesando la música
   const key = await conn.sendMessage(m.chat, {
-    text: `⌘━─━─≪ *𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼* ≫─━─━⌘\n\n🔎 *Procesando tu solicitud, por favor espera...*`,
+    text: `⌘━─━─≪ *Streaming Anilu* ≫─━─━⌘\n\n🔎 *Procesando tu solicitud, por favor espera...*`,
   });
 
   try {
@@ -53,8 +53,8 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     const { url: downloadUrl } = download;
 
     // Descripción personalizada para el archivo encontrado
-    const description = `⌘━─━─≪ 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼 ≫─━─━⌘\n\n🎵 *Título:* ${title}\n⏳ *Duración:* ${duration.timestamp || "Desconocida"}\n👁️ *Vistas:* ${views.toLocaleString() || "Desconocidas"}\n✍️ *Autor:* ${author.name || "Desconocido"}\n🔗 *Enlace del video:* ${videoUrl}\n\n✨ *Tu archivo se está enviando, por favor espera...*\n\n⌘━━─≪ Power By 
-Braan Bot AI ≫─━━⌘`;
+    const description = `⌘━─━─≪ Streaming Anilu ≫─━─━⌘\n\n🎵 *Título:* ${title}\n⏳ *Duración:* ${duration.timestamp || "Desconocida"}\n👁️ *Vistas:* ${views.toLocaleString() || "Desconocidas"}\n✍️ *Autor:* ${author.name || "Desconocido"}\n🔗 *Enlace del video:* ${videoUrl}\n\n✨ *Tu archivo se está enviando, por favor espera...*\n\n⌘━━─≪ Power By 
+Braan ≫─━━⌘`;
 
     // Actualizar mensaje inicial con la información específica del video
     await conn.sendMessage(m.chat, { text: description, edit: key });
