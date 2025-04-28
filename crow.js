@@ -280,7 +280,7 @@ process.on('uncaughtException', console.error);
 async function connectSubBots() {
 const subBotDirectory = './BraanJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🌠 BraanBot-Ai no tiene Sub-Bots vinculados.');
+console.log('🌠 AniluBot-Ai no tiene Sub-Bots vinculados.');
 return;
 }
 
