@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
     // Validar formato del comando
     if (!regFormat.test(text)) {
-        return m.reply(`❌ Formato incorrecto.\n\nUsa el comando así: *${usedPrefix + command} nombre.edad*\nEjemplo: *${usedPrefix + command} 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼.18*`);
+        return m.reply(`❌ Formato incorrecto.\n\nUsa el comando así: *${usedPrefix + command} nombre.edad*\nEjemplo: *${usedPrefix + command} Anilu.18*`);
     }
 
     let [_, name, splitter, age] = text.match(regFormat);
