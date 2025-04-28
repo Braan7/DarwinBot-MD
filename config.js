@@ -11,8 +11,8 @@ import axios from 'axios'
 global.owner = [
   ['529993703759 ', 'Streaming Anilu',true],
   ['5219992448600', 'Lucely',true],
+  ['5215648804810', 'Braan',true],
   ['5215648527333', 'Braan2',true],
-  ['5219999999999', 'Braan',true],
   ['5219999999999', 'Braan',true],
 
 ]
