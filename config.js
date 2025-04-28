@@ -9,8 +9,8 @@ import axios from 'axios'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['5219614515989', 'BraanBot',true],
-  ['5215648804810', 'Braan',true],
+  ['529993703759 ', 'Streaming Anilu',true],
+  ['5219992448600', 'Lucely',true],
   ['5215648527333', 'Braan2',true],
   ['5219999999999', 'Braan',true],
   ['5219999999999', 'Braan',true],
@@ -24,18 +24,18 @@ global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `Braan7. /`
-global.author = ' 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼'
-global.stickpack = '𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼'
-global.stickauth = '𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼'
-global.wm = '𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼'
+global.packname = `Lucely. /`
+global.author = 'Streaming Anilu'
+global.stickpack = 'Streaming Anilu'
+global.stickauth = 'Streaming Anilu'
+global.wm = 'Streaming Anilu'
 global.dev = '𝘗𝘰𝘸𝘦𝘳 𝘉𝘺 Braan7'
-global.wait = '🌪️ *Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ, sᴏʏ ʟᴇɴᴛ𝙾...\n\n> 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼'
-global.botname = '𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼'
+global.wait = '🌪️ *Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ, sᴏʏ ʟᴇɴᴛ𝙾...\n\n> Streaming Anilu'
+global.botname = 'Streaming Anilu'
 global.textbot = `𝘗𝘰𝘸𝘦𝘳 𝘉𝘺 Braan7`
 global.dev = '𝘗𝘰𝘸𝘦𝘳 𝘉𝘺 Braan7'
 global.listo = '*Aqui tiene*'
-global.namechannel = '𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼'
+global.namechannel = 'Streaming Anilu'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
