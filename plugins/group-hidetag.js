@@ -26,7 +26,7 @@ const handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
     const quoted = m.quoted ? m.quoted : m;
     const mime = (quoted.msg || quoted).mimetype || '';
     const isMedia = /image|video|sticker|audio/.test(mime);
-    const watermark = '\n\n> Streaming Anilu';
+    const watermark = '\n\n> 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭';
 
     if (isMedia) {
       const mediax = await quoted.download?.();
