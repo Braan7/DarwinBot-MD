@@ -1,11 +1,11 @@
 
 let handler = async (m, { conn }) => {
-    let img = 'https://qu.ax/FHmRy.jpg';
+    let img = 'https://qu.ax/rjKnz.jpg';
 
     
     let name = await conn.getName(m.sender);
 
-    let texto = `💗• 𝘝𝘦𝘯𝘵𝘢 𝘥𝘦 𝘱𝘭𝘢𝘵𝘢𝘧𝘰𝘳𝘮𝘢𝘴 𝘺 𝘣𝘰𝘵𝘴 𝘢𝘭 +52 999 244 8600
+    let texto = `💗• 𝘝𝘦𝘯𝘵𝘢 𝘥𝘦 𝘱𝘭𝘢𝘵𝘢𝘧𝘰𝘳𝘮𝘢𝘴 𝘺 𝘣𝘰𝘵𝘴 𝘢𝘭 +52 663 466 5771
 
 Creador de Bots: +52 56 4880 4810.
 Escribeme al privado para renta o personalización de Bots. 
@@ -641,10 +641,7 @@ Escribeme al privado para renta o personalización de Bots.
 ╭──🌸 *herramientas* 】
 ┋🎀•  .clima *<ciudad/país>*
 ╰──🌸
- > 𝙏𝙚𝙖𝙢 𝐘𝐀𝐒 𝐁𝐎𝐓  
-
- > 𝙏𝙚𝙖𝙢 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼
-`
+ > 𝙏𝙚𝙖𝙢 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭`
 
 const fkontak = {
         "key": {
