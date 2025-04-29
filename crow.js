@@ -104,7 +104,7 @@ loadChatgptDB();
 
 global.creds = 'creds.json'
 global.authFile = 'crowSession'
-global.authFileJB  = 'BraanJadiBot'
+global.authFileJB  = '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
 /*global.rutaBot = join(__dirname, authFile)
 global.rutaJadiBot = join(__dirname, authFileJB)
 
@@ -176,7 +176,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['BraanBot-Ai', 'Edge', '20.0.04'] : methodCodeQR ? ['BraanBot-Ai', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭', 'Edge', '20.0.04'] : methodCodeQR ? ['𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
