@@ -32,7 +32,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     await conn.sendMessage(m.chat, {
       text: `
 ╭━━━🌐📡━━━╮  
-   🔍 **Procesando con ☆Streaming Anilu☆** 🔍  
+   🔍 **Procesando con ☆𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭☆** 🔍  
 ╰━━━🌐📡━━━╯  
 
 ✨ *Estamos descargando tu video...*  
