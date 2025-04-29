@@ -47,7 +47,7 @@ var handler = async function (m, conn, db) {
 
     // Lista de canales
     let canalIdM = ["120363398043363641@newsletter", "120363398043363641@newsletter"]
-    let canalNombreM = ["𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼", "✧┊┋◟𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼◞┊┋✧"]
+    let canalNombreM = ["𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭", "✧┊┋◟𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭◞┊┋✧"]
     
     async function getRandomChannel() {
         let randomIndex = Math.floor(Math.random() * canalIdM.length)
@@ -104,7 +104,7 @@ var handler = async function (m, conn, db) {
             externalAdReply: { 
                 showAdAttribution: true, 
                 title: "Texto del bot", 
-                body: '🚀 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼ᚐ', 
+                body: '🚀 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭ᚐ', 
                 previewType: "PHOTO", 
                 thumbnailUrl: "https://qu.ax/QGAVS.jpg", 
                 sourceUrl: "https://youtube.com/@braan7x?si=CZPpX_5bMgiQc4Gk", 
