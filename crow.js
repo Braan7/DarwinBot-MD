@@ -154,7 +154,7 @@ opcion = await question(`╭${lineM}
 │ ${chalk.blueBright('┊')} ${chalk.italic.magenta("Escriba solo el numero de")}
 │ ${chalk.blueBright('┊')} ${chalk.italic.magenta("La opcion para conectarse")}
 │ ${chalk.blueBright('╰┄┈┅┈┄┈┅┈┄┅┈┄┈┅┄┈┅┈┄')} 
-│ ${chalk.italic.red(`AniluBot-Ai 🌠`)}
+│ ${chalk.italic.red(`𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭`)}
 ╰${lineM}\n${chalk.bold.magentaBright('---> ')}`)
 if (!/^[1-2]$/.test(opcion)) {
 console.log(chalk.bold.redBright(`NO SE PERMITE NÚMEROS QUE NO SEAN ${chalk.bold.greenBright("1")} O ${chalk.bold.greenBright("2")}, TAMPOCO LETRAS O SÍMBOLOS ESPECIALES.\n${chalk.bold.yellowBright("CONSEJO: COPIE EL NÚMERO DE LA OPCIÓN Y PÉGUELO EN LA CONSOLA.")}`))
@@ -280,7 +280,7 @@ process.on('uncaughtException', console.error);
 async function connectSubBots() {
 const subBotDirectory = './BraanJadiBot';
 if (!existsSync(subBotDirectory)) {
-console.log('🌠 AniluBot-Ai no tiene Sub-Bots vinculados.');
+console.log('𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭 no tiene Sub-Bots vinculados.');
 return;
 }
 
@@ -307,11 +307,11 @@ const mainBotAuthFile = 'BraanJadiBot';
 try {
 const mainBot = await connectionUpdate(mainBotAuthFile);
 global.conns.push(mainBot);
-console.log(chalk.bold.greenBright(`🌠 Ai Anilu conectado correctamente.`))
+console.log(chalk.bold.greenBright(`𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭 conectado correctamente.`))
 
 await connectSubBots();
 } catch (error) {
-console.error(chalk.bold.cyanBright(`🥀 Error al iniciar AniluBot-Ai: `, error))
+console.error(chalk.bold.cyanBright(`🥀 Error al iniciar 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭: `, error))
 }
 })();
 
