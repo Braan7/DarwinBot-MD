@@ -9,8 +9,8 @@ import axios from 'axios'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['529993703759 ', 'Streaming Anilu',true],
-  ['5219992448600', 'Lucely',true],
+  ['5216648557154 ', '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭',true],
+  ['5216634665771', 'Ada',true],
   ['5215648804810', 'Braan',true],
   ['5215648527333', 'Braan2',true],
   ['5219999999999', 'Braan',true],
@@ -24,18 +24,18 @@ global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `Lucely. /`
-global.author = 'Streaming Anilu'
-global.stickpack = 'Streaming Anilu'
-global.stickauth = 'Streaming Anilu'
-global.wm = 'Streaming Anilu'
+global.packname = `Ada./`
+global.author = '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
+global.stickpack = '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
+global.stickauth = '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
+global.wm = '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
 global.dev = '𝘗𝘰𝘸𝘦𝘳 𝘉𝘺 Braan7'
-global.wait = '🌪️ *Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ, sᴏʏ ʟᴇɴᴛ𝙾...\n\n> Streaming Anilu'
-global.botname = 'Streaming Anilu'
+global.wait = '🌪️ *Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ, sᴏʏ ʟᴇɴᴛ𝙾...\n\n> 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
+global.botname = '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
 global.textbot = `𝘗𝘰𝘸𝘦𝘳 𝘉𝘺 Braan7`
 global.dev = '𝘗𝘰𝘸𝘦𝘳 𝘉𝘺 Braan7'
 global.listo = '*Aqui tiene*'
-global.namechannel = 'Streaming Anilu'
+global.namechannel = '𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
