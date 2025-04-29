@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 const handler = async (m, { conn, args, usedPrefix, command }) => {
     try {
         if (!args[0]) {
-            return m.reply(`❌ Ingresa el texto para el sticker.\n\nEjemplo: *${usedPrefix + command} Streaming Anilu*`);
+            return m.reply(`❌ Ingresa el texto para el sticker.\n\nEjemplo: *${usedPrefix + command} 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭*`);
         }
 
         const text = encodeURIComponent(args.join(" "));
