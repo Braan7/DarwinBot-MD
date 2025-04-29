@@ -13,7 +13,7 @@ const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('AniluBot\nai', {
+say('DarwinBot-MD\nai', {
 font: 'block',
 align: 'center',
 colors: ['white']
@@ -23,7 +23,7 @@ font: 'chrome',
 align: 'center',
 colors: ['red']
 });
-say(`Developed By • BraanBot`, {
+say(`Developed By • 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭`, {
 font: 'console',
 align: 'center',
 colors: ['magenta']
