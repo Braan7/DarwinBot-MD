@@ -36,7 +36,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     });
   }
 
-  // Mensaje inicial indicando que Streaming Anilu está procesando la música
+  // Mensaje inicial indicando que 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭 está procesando la música
   const key = await conn.sendMessage(m.chat, {
     text: `⌘━─━─≪ *Streaming Anilu* ≫─━─━⌘\n\n🔎 *Procesando tu solicitud, por favor espera...*`,
   });
