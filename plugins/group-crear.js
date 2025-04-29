@@ -29,7 +29,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     // Enviar la imagen al usuario
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `🖼️ *Aquí está tu imagen generada por 𝐁𝐫𝐚𝐚𝐧𝐁𝐨𝐭 🥷🏼:*`,
+      caption: `🖼️ *Aquí está tu imagen generada por 𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭:*`,
     });
   } catch (error) {
     console.error("Error al generar la imagen:", error);
