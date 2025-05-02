@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 export async function before(m, { conn }) {
 let name = `𝐃𝐚𝐫𝐰𝐢𝐧 𝐁𝐨𝐭`
-let imagenes = ["https://qu.ax/rjKnz.jpg"]
+let imagenes = ["https://qu.ax/bwnww.jpg"]
 
 let icono = imagenes[Math.floor(Math.random() * imagenes.length)]
 
