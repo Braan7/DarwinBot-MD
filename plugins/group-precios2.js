@@ -6,15 +6,19 @@ let handler = async (m, { conn }) => {
 
     // Mensaje que se enviará
     const message = `
-*¡AQUÍ ESTÁN LOS PRECIOS!*
 
-1 BOT = 3$
-2 BOT = 6$
-3 BOT = 9$
-4 BOT = 12$
-5 BOT = 15$
+𝐁𝐎𝐓 𝐏𝐀𝐑𝐀 𝐆𝐑𝐔𝐏𝐎𝐒
 
-> Bot Para Grupos ⭐`;
+> 𝙼𝙴𝙽𝚂𝚄𝙰𝙻
+* 🧡 Un Grupo $25Mx
+* 🧡 3 Grupos $60Mx
+> 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴
+* 🤖 Un Grupo $35Mx
+* 🤖 3 Grupos $90Mx
+
+> Creador de Bots:
++52 56 4880 4810 
++52 56 4852 7333`;
 
     if (m.isGroup) {
         // URL de la imagen
