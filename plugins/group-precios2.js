@@ -16,6 +16,8 @@ let handler = async (m, { conn }) => {
 * 🤖 Un Grupo $35Mx
 * 🤖 3 Grupos $90Mx
 
+> Contacto: +52 663 466 5771
+
 > Creador de Bots:
 +52 56 4880 4810 
 +52 56 4852 7333`;
