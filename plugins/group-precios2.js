@@ -6,7 +6,6 @@ let handler = async (m, { conn }) => {
 
     // Mensaje que se enviará
     const message = `
-
 𝐁𝐎𝐓 𝐏𝐀𝐑𝐀 𝐆𝐑𝐔𝐏𝐎𝐒
 
 > 𝙼𝙴𝙽𝚂𝚄𝙰𝙻
